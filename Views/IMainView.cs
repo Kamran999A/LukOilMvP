@@ -12,6 +12,7 @@ namespace LukoilMVP.Views
     
     public interface IMainView
     {
+        //Sd
         EventHandler<EventArgs> LitrNumericUpDownValueChanged { get; set; }
         EventHandler<EventArgs> PriceNumericUpDownValueChanged { get; set; }
         EventHandler<EventArgs> PayButtonClicked { get; set; }
